@@ -71,10 +71,20 @@ img {
     flex-basis: calc((100% / 12) * 7);
 }
 
-/**/
+/*Section onecol-big*/
 
 .onecol-big .col-12 {
     flex-basis: 100%;
+}
+
+/*Section fivecol*/
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
 }
 
 /*DEBUG*/
@@ -161,3 +171,23 @@ img {
 .debug .onecol-big .col-12 {
     background-color: #228b22;
 }
+
+/*section .fivecol debug*/
+.debug .fivecol {
+    background-color: #23272a;
+    margin-bottom: 1px; 
+}
+
+.debug .fivecol .row {
+    min-height: 300px;
+}
+
+.debug .col-4 {
+    background-color: #f08080;
+}
+
+.debug .col-2 {
+    background-color: #20b2aa;
+    border: 1px white dashed; 
+}
+
