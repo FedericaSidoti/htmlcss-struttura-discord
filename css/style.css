@@ -120,12 +120,12 @@ img {
     background-color:  #00008b;
 }
 
-.debug .col-12 {
+.debug #section-onecol .col-12 {
     background-color: #ee82ee;
-    max-width: 750px;
+    max-width: 720px;
 }
 
-/*section-twocol debug*/
+/*section .twocol debug*/
 
 .debug .col-5 {
     background-color: #ffc0cb;
@@ -141,4 +141,18 @@ img {
 
 .debug #gray-twocol {
     background-color: #d3d3d3;
+}
+
+/*section .onecol-big debug*/
+
+.debug .onecol-big {
+    background-color: #d3d3d3;
+}
+
+.debug .onecol-big .row {
+    min-height: 400px;
+}
+
+.debug .onecol-big .col-12 {
+    background-color: #228b22;
 }
