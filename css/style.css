@@ -9,6 +9,8 @@ img {
     max-width: 100%;
 }
 
+/*regole di layout*/
+
 .body {
     display: flex;
     flex-direction: column;
@@ -23,6 +25,8 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+
+/*Header*/
 
 .col-fixed {
     flex-basis: 150px;
@@ -44,6 +48,18 @@ img {
     text-align: center;
 }
 
+/*Section 1*/
+.section {
+    padding: 10px;
+}
+
+#section-1 .row {
+    justify-content: center;
+}
+
+.col-12 {
+    flex-grow: 1;
+}
 /*DEBUG*/
 
 .debug .body {
@@ -66,7 +82,29 @@ img {
     padding: 4px;
 }
 
+.debug .section .row {
+    min-height: 200px;;
+}
+
 .debug .col-grow {
     border: 1px black dashed;
     padding: 4px;
 }
+
+.debug *[class="section"] {  
+    min-height: 200px;
+}
+
+.debug #section-1 {
+    background-color: #00008b; 
+}
+
+.debug #section-1 .row {
+    background-color:  #00008b;
+}
+
+.debug .col-12 {
+    background-color: #ee82ee;
+    max-width: 750px;
+}
+
