@@ -8,3 +8,52 @@
 img {
     max-width: 100%;
 }
+
+/*DEBUG*/
+.debug .body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100% vh;
+}
+
+.debug .header {
+    background-color: #add8e6;
+    min-height: 30px;
+    padding: 5px;
+}
+
+.debug .container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.row {
+    background-color: #daa520; 
+    min-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-fixed {
+    border: 1px black dashed;
+    flex-basis: 150px;
+    padding: 4px;
+}
+
+.col-grow {
+    border: 1px black dashed;
+    flex-grow: 1;
+    padding: 4px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.login {
+    text-align: right;
+}
+
+.link {
+    text-align: center;
+}
