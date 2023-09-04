@@ -9,41 +9,27 @@ img {
     max-width: 100%;
 }
 
-/*DEBUG*/
-.debug .body {
+.body {
     display: flex;
     flex-direction: column;
-    min-height: 100% vh;
 }
 
-.debug .header {
-    background-color: #add8e6;
-    min-height: 30px;
-    padding: 5px;
-}
-
-.debug .container {
+.container {
     margin: 0 auto;
     max-width: 800px;
 }
 
 .row {
-    background-color: #daa520; 
-    min-height: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .col-fixed {
-    border: 1px black dashed;
     flex-basis: 150px;
-    padding: 4px;
 }
 
 .col-grow {
-    border: 1px black dashed;
     flex-grow: 1;
-    padding: 4px;
 }
 
 .logo {
@@ -56,4 +42,31 @@ img {
 
 .link {
     text-align: center;
+}
+
+/*DEBUG*/
+
+.debug .body {
+    min-height: 100% vh;
+}
+
+.debug .header {
+    background-color: #add8e6;
+    min-height: 30px;
+    padding: 5px;
+}
+
+.debug .row {
+    background-color: #daa520; 
+    min-height: 20px;
+}
+
+.debug .col-fixed {
+    border: 1px black dashed;
+    padding: 4px;
+}
+
+.debug .col-grow {
+    border: 1px black dashed;
+    padding: 4px;
 }
