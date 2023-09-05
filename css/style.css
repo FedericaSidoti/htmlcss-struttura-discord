@@ -11,10 +11,7 @@ img {
 
 /*regole di layout*/
 
-.body {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .container {
     margin: 0 auto;
@@ -57,8 +54,8 @@ img {
     justify-content: center;
 }
 
-#section-onecol .col-12 {
-    flex-basis: 720px;
+#section-onecol .col-11 {
+    flex-basis: calc((100% / 12) * 11);
 }
 
 /*Section twocol*/
@@ -140,7 +137,7 @@ img {
     background-color:  #00008b;
 }
 
-.debug #section-onecol .col-12 {
+.debug #section-onecol .col-11 {
     background-color: #ee82ee;
 }
 
