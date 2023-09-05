@@ -177,7 +177,7 @@ img {
 /*section .fivecol debug*/
 .debug .fivecol {
     background-color: #23272a;
-    margin-bottom: 1px; 
+    border-bottom: 1px white solid; 
 }
 
 .debug .fivecol .row {
