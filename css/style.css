@@ -11,8 +11,6 @@ img {
 
 /*regole di layout*/
 
-
-
 .container {
     margin: 0 auto;
     max-width: 800px;
@@ -68,6 +66,9 @@ img {
     flex-basis: calc((100% / 12) * 7);
 }
 
+#gray-twocol .row {
+    flex-direction: row-reverse;
+}
 
 /*Section fivecol*/
 
